@@ -1,8 +1,8 @@
 class Browse < Formula
   desc "Scrape any webpage to markdown using your browser session"
   homepage "https://github.com/PepijnSenders/browse-cli"
-  url "https://registry.npmjs.org/browse-cli/-/browse-cli-1.0.9.tgz"
-  sha256 "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f"
+  url "https://registry.npmjs.org/@pep/browse-cli/-/browse-cli-1.0.9.tgz"
+  sha256 "4ae2389799af9722374567a9aa3af578632566290ee63b9f178c2d018167e0fa"
   license "MIT"
 
   depends_on "node"
