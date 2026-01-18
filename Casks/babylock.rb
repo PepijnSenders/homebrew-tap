@@ -9,7 +9,15 @@ cask "babylock" do
 
   depends_on macos: ">= :monterey"
 
+  # Quit app before upgrading
   app "BabyLock.app"
+
+  preflight do
+    # Quit the app if running before install/upgrade
+    system_command "/usr/bin/osascript",
+                   args: ["-e", 'quit app "BabyLock"'],
+                   sudo: false
+  end
 
   postflight do
     # Reset TCC database entry to prompt for permission on first launch
