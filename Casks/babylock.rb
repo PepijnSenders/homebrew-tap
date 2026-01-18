@@ -1,6 +1,6 @@
 cask "babylock" do
-  version "1.1.0"
-  sha256 "93092ba2c5a911687e124622af4133427212309c15806bd6fc78172d18c30535"
+  version "1.1.1"
+  sha256 "4642a9ed01e9699212a66682f85c13f4534e7fcc6e933d8ee12ddda8e4279c7c"
 
   url "https://github.com/PepijnSenders/baby-lock/releases/download/v#{version}/BabyLock-#{version}.dmg"
   name "BabyLock"
