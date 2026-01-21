@@ -1,18 +1,18 @@
 class SpaceRecorder < Formula
   desc "ASCII camera overlay for terminal streaming"
   homepage "https://github.com/PepijnSenders/space-recorder"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/PepijnSenders/space-recorder/releases/download/v0.1.1/space-recorder-x86_64-apple-darwin.tar.gz"
-      sha256 "8b5c551ebb99348505481a34b51f93ad15d98cf53fba565d30ba81463a4bf179"
+      url "https://github.com/PepijnSenders/space-recorder/releases/download/v0.1.2/space-recorder-x86_64-apple-darwin.tar.gz"
+      sha256 "751b043683a29b29f68f52e41d4d56925d0b3eb9fa9648e4b5e3c0e263f4bc70"
     end
 
     on_arm do
-      url "https://github.com/PepijnSenders/space-recorder/releases/download/v0.1.1/space-recorder-aarch64-apple-darwin.tar.gz"
-      sha256 "2fccbca102d06b2df4c0185d9736ba58cae795e6e2e565b7d3d903378208ea30"
+      url "https://github.com/PepijnSenders/space-recorder/releases/download/v0.1.2/space-recorder-aarch64-apple-darwin.tar.gz"
+      sha256 "6795dc335ae35cc1fdb5bc0cc69a9a3ffde26a2862c8202ac80099d5c12a1640"
     end
   end
 
