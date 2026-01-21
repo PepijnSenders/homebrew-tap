@@ -1,15 +1,15 @@
 class TermDeck < Formula
   desc "Terminal presentation tool with cyberpunk aesthetic"
   homepage "https://github.com/PepijnSenders/term-deck"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/PepijnSenders/term-deck/releases/download/v1.0.0/term-deck-darwin-arm64.tar.gz"
-      sha256 "514f0293d500d76fe71f9d1c05b3298971029418306a6fa5b496d654c1a26452"
+      url "https://github.com/PepijnSenders/term-deck/releases/download/v1.0.1/term-deck-darwin-arm64.tar.gz"
+      sha256 "fccb5faf4059111806bead7a70bfaac5d369b0705540d5b7d512c28116b3de8b"
     else
-      url "https://github.com/PepijnSenders/term-deck/releases/download/v1.0.0/term-deck-darwin-x64.tar.gz"
-      sha256 "53d2e3a5377ff673a1466345c1090a880f1663cfed76d3b4433c8a6bb2d6f1b2"
+      url "https://github.com/PepijnSenders/term-deck/releases/download/v1.0.1/term-deck-darwin-x64.tar.gz"
+      sha256 "a98df94739b54b49f7aa0d51b40a080e21c6f7841b2bfbb7ef80f2956ad5c3db"
     end
   end
 
