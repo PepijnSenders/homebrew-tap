@@ -20,6 +20,11 @@ cask "babylock" do
   end
 
   postflight do
+    # Clear quarantine flag to prevent Gatekeeper malware warning (app is unsigned)
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/BabyLock.app"],
+                   sudo: false
+
     # Reset TCC database entry to prompt for permission on first launch
     # must_succeed: false because on fresh installs the app isn't in the TCC database yet
     system_command "/usr/bin/tccutil",
