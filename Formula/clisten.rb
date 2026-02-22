@@ -1,25 +1,25 @@
 class Clisten < Formula
   desc "Terminal UI for NTS Radio"
   homepage "https://github.com/PepijnSenders/clisten"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.0/clisten-x86_64-apple-darwin.tar.gz"
-      sha256 "8a32acbe2931847c27a30aac4779daa00ec40efef31b0809960e3ef47bf53a80"
+      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.1/clisten-x86_64-apple-darwin.tar.gz"
+      sha256 "dae6360288e09971defe2a5b825de0bc5881d4efe1756c00623e8e3c38a6d931"
     end
 
     on_arm do
-      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.0/clisten-aarch64-apple-darwin.tar.gz"
-      sha256 "f5b812ac6cb0ac44b7bf6e490ff0f83e079af4837d436952f1f93ee0d2d9422a"
+      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.1/clisten-aarch64-apple-darwin.tar.gz"
+      sha256 "951bb21f07237788e3109398eb97205e7d8dab47f5386e5373686f3c5f78b32f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.0/clisten-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e68ad30b59bfb4676500eb41e840c9bdbb2bd722f8fa1b4732089dbd730e1c1"
+      url "https://github.com/PepijnSenders/clisten/releases/download/v0.3.1/clisten-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c97927a81e1a4fad45375b10e2f53c9f4827d0c3613f1b3c48ba2edc43383a34"
     end
   end
 
