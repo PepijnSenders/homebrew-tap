@@ -41,6 +41,9 @@ cask "babylock" do
       2. Enable BabyLock in the list (or remove and re-add it)
 
     This is required because macOS revokes permissions when app binaries change.
+
+    To launch the app:
+      open -a BabyLock
   EOS
 
   zap trash: [
