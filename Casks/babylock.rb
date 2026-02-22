@@ -21,9 +21,11 @@ cask "babylock" do
 
   postflight do
     # Reset TCC database entry to prompt for permission on first launch
+    # must_succeed: false because on fresh installs the app isn't in the TCC database yet
     system_command "/usr/bin/tccutil",
                    args: ["reset", "Accessibility", "com.babylock.app"],
-                   sudo: false
+                   sudo: false,
+                   must_succeed: false
   end
 
   caveats <<~EOS
